@@ -1,0 +1,98 @@
+.about_wrapper {
+        background-image: url("../images/background-7.jpg");
+        min-height: 750px;
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+
+        .exit_bottum {
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            padding: 1rem; 
+
+            a {
+            color: rgb(173, 162, 162); 
+            }
+        }
+
+
+
+
+        .about_content {
+            box-shadow: 0 .12rem .5rem #0000003d;
+            width: 45%;
+            padding: 2rem;
+            font-family: 'Lato';
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: 2px;
+            color: rgb(54, 54, 54);
+            text-align: center;
+            
+
+            .input_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+                
+
+                #email_input {
+                    width: 25rem;
+                    height: 2rem;
+                    margin-bottom: .5rem;
+
+                    @media screen and (max-width: 800px){
+                        width: 70%;
+                        
+                    }
+                }
+
+                .contact_text {
+                    width: 25rem;
+                    height: 10rem;
+                    margin-bottom: .5rem;
+
+                    @media screen and (max-width: 800px){
+                        width: 70%;
+                        
+                    }
+                }
+
+                .btn {
+                    width: 15rem;
+                    height: 2rem;
+                    box-shadow: 0 .12rem .5rem #0000003d;
+
+                    @media screen and (max-width: 800px){
+                        width: 70%;
+                      
+                    }
+                }
+            }
+
+            .about_text {
+                padding: 0rem;
+
+            .li_link {
+                text-decoration: none;
+                color: rgb(173, 162, 162);
+                padding: 1rem; 
+
+                
+            }
+    
+            .li_link:hover {
+                transform: scale(1.1);
+                          
+            }
+          }
+        }
+}
